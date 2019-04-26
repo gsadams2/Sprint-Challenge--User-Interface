@@ -69,7 +69,8 @@ p {
 
 .header {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
     padding: 0 25px 0px;
     margin-left: 4%;
     margin-right: 4%;
@@ -84,6 +85,8 @@ nav {
 
 nav a {
     color: black;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     padding: 0 33px 0px;
 }
@@ -138,13 +141,75 @@ nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+
+/* .middle-content .boxes .box-one {
+    background:teal;
+}
+
+.middle-content .boxes .box-two {
+    background: gold;
+}
+
+.middle-content .boxes .box-three {
+    
+    background: cadetblue;
+
+}
+
+.middle-content .boxes .box-four {
+
+    background: coral;
+
+  
+}
+
+.middle-content .boxes .box-five {
+   
+    background: crimson;
+   
+}
+
+.middle-content .boxes .box-six {
+  
+    background: forestgreen;
+ 
+}
+
+.middle-content .boxes .box-seven {
+   
+    background:darkorchid;
+  
+}
+
+.middle-content .boxes .box-eight {
+
+    background: hotpink;
+  
+}
+
+.middle-content .boxes .box-nine {
+    
+    background: indigo;
+  
+}
+
+.middle-content .boxes .box-ten {
+  
+    background: dodgerblue; */
+
+}
+
+
+
 
 .bottom-content {
     display: flex;
