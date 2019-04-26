@@ -243,3 +243,63 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.middle-pics {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.right-pic {
+    margin-left: 4%;
+}
+
+
+
+.middle-contentabout {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+
+.bottom-pics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bottom-contentabout {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+}
+
+button {
+    padding: 5px 30px 5px;
+	border: 2px solid black;
+  border-radius: 10px;
+  width: 35%;
+  height: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  align-items: center;
+  color: black;
+  font-size: 14px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.footer-about {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+hr {
+    border-top:1px dotted;
+}
